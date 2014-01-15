@@ -1,6 +1,6 @@
 {
   "name": "sql.pegjs",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A sql parser based on peg.js",
   "main": "index.js",
   "scripts": {

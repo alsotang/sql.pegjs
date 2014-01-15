@@ -65,9 +65,17 @@ describe('parser.test.js', function () {
       ]);
   });
 
+  // it('should parse `ORDER BY`', function () {
+  //   var sql = 'SELECT table1.field1 FROM table1 ORDER BY table1.field1;';
+  //   console.log('%j', parser.parse(sql));
+  //   parser.parse(sql)
+  //     .should.eql([]);
+  // });
+
   it('should be case-insensitive', function () {
     var sql = 'sElEcT * FroM users;';
     parser.parse(sql)
       .should.eql([{"stmt":"select","select_cores":[{"results":[{"column":"*"}],"from":[{"table":"users"}]}]}]);
   });
+
 });

@@ -1,5 +1,5 @@
 build: lib/sql.pegjs
-	@pegjs lib/sql.pegjs lib/sqlparser.js
+	@./node_modules/.bin/pegjs lib/sql.pegjs lib/sqlparser.js
 
 test:
 	@./node_modules/.bin/mocha
