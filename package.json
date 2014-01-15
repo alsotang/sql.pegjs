@@ -1,0 +1,24 @@
+{
+  "name": "sql.pegjs",
+  "version": "1.0.0",
+  "description": "A sql parser based on peg.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "peg",
+    "sql",
+    "pegjs",
+    "parser"
+  ],
+  "author": "alsotang <alsotang@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "pegjs": "~0.8.0"
+  },
+  "devDependencies": {
+    "should": "~2.1.1",
+    "mocha": "~1.17.0"
+  }
+}
