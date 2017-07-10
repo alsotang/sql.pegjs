@@ -1,5 +1,7 @@
 # sql.pegjs
 
+#THIS PROJECT IS DEPRECATED, PLEASE FORK YOUR OWN#
+
 **[WARN]https://github.com/steveyen/sqld3 seems just a toy, so do not use both projects of us.**
 
 This project is a SQL parser based on PEG([parsing expression grammar](http://en.wikipedia.org/wiki/Parsing_expression_grammar)).
