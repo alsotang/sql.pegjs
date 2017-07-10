@@ -1,6 +1,6 @@
 # sql.pegjs
 
-#THIS PROJECT IS DEPRECATED, PLEASE FORK YOUR OWN#
+## THIS PROJECT IS DEPRECATED, PLEASE FORK YOUR OWN
 
 **[WARN]https://github.com/steveyen/sqld3 seems just a toy, so do not use both projects of us.**
 
